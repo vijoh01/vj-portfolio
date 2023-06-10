@@ -47,10 +47,10 @@ export default function Home() {
 
           </div>
 
-          <div className="animate-shadow min-h-[22.6rem] h-[22.6rem] md:h-[22.6rem] lg:h-[22.6rem] md:min-h-[25rem] md:w-[28rem] lg:min-h-[31.5rem] lg:w-[34rem] md:translate-x-[22rem] lg:translate-x-[27.5rem] flex justify-center items-center overflow-hidden">
+          <div className="animate-shadow min-h-[22.6rem] max-h-[22.6rem] md:max-h-[22.6rem] lg:max-h-[22.6rem] md:min-h-[25rem] md:w-[28rem] lg:min-h-[31.5rem] lg:w-[34rem] md:translate-x-[22rem] lg:translate-x-[27.5rem] flex justify-center items-center overflow-hidden">
 
             <svg
-              className='rotate-6 min-w-[13rem] w-[13rem] animate-color scale-[2] md:scale-[2.5] lg:scale-[3] translate-y-[4.7rem]'
+              className='translate-x-48 md:translate-x-[14rem] lg:translate-x-[17.5rem] rotate-6 min-w-[13rem] w-[13rem] animate-color scale-[2] md:scale-[2.5] lg:scale-[3] translate-y-[4.7rem]'
               width="200"
               height="200"
             >
@@ -62,7 +62,7 @@ export default function Home() {
               </defs>
               <path fill="url(#gradient)" d="M52,22.09a29.27,29.27,0,0,1,8.69-4.59c7.26-2.4,15-2.25,22.57-2.09,21,.43,43.79,1.56,59.95,16.13,8,7.25,13.57,17.16,19,26.87Q174,79.66,185.77,100.93c2.36,4.25,4.76,8.64,5.59,13.53,1.18,7-1.05,14.2-4.83,19.94s-9,10.19-14.42,14.12c-18.13,13.23-39.38,21.9-61.2,22.72S66.73,164.62,50.29,149c-10.18-9.66-17.83-22-25.08-34.42-6.74-11.47-13.44-23.73-14.09-37.3-.68-14.66,6.08-29,16-39A75.74,75.74,0,0,1,52,22.09Z" />
             </svg>
-            <Image className='absolute filter grayscale min-w-[24rem] w-[24rem] md:w-[28rem] lg:w-[35rem] lg:scale-110 lg:translate-y-[9rem] translate-y-28' src={viktor} alt='dasd'></Image>
+            <Image className='-translate-x-[6.5rem] z-10 filter grayscale min-w-[24rem] w-[24rem] md:min-w-[28rem] lg:min-w-[35rem] lg:scale-110 md:translate-y-[6.5rem] lg:translate-y-[10rem] translate-y-28' src={viktor} alt='dasd'></Image>
           </div>
         </div>
       </div>
