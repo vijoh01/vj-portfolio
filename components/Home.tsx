@@ -47,7 +47,7 @@ export default function Home() {
 
           </div>
 
-          <div className="animate-shadow min-h-[22.6rem] md:min-h-[25rem] md:w-[28rem] lg:min-h-[31.5rem] lg:w-[34rem] md:translate-x-[22rem] lg:translate-x-[27.5rem] flex justify-center items-center overflow-hidden">
+          <div className="animate-shadow min-h-[22.6rem] h-[22.6rem] md:h-[22.6rem] lg:h-[22.6rem] md:min-h-[25rem] md:w-[28rem] lg:min-h-[31.5rem] lg:w-[34rem] md:translate-x-[22rem] lg:translate-x-[27.5rem] flex justify-center items-center overflow-hidden">
 
             <svg
               className='rotate-6 min-w-[13rem] w-[13rem] animate-color scale-[2] md:scale-[2.5] lg:scale-[3] translate-y-[4.7rem]'
